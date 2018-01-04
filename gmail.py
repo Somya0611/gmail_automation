@@ -26,7 +26,7 @@ def login_download_attachment():
     if 'attachments' not in os.listdir(detach_dir):
         os.mkdir('attachments')
 
-    userName = \raw_input('Enter your GMail username:')
+    userName = raw_input('Enter your GMail username:')
     passwd = getpass.getpass('Enter your password: ')
     sender_email = 'khushi.ag27@gmail.com'
     try:
